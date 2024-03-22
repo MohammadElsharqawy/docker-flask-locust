@@ -7,7 +7,7 @@ docker build --tag=loadtest .
 docker image ls
 
 # Run flask app
-docker run -d -p 8080:8080 loadtest
+docker run -d -p 5000:8080 loadtest
 
 # debug
 docker run -it --entrypoint /bin/bash loadtest 
